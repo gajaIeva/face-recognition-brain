@@ -1,0 +1,16 @@
+.tilty {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background: linear-gradient(to left, rgb(82, 7, 67) 0%, rgba(0, 128, 128, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    display: inline-block;
+    transform: translateZ(60px);
+}
